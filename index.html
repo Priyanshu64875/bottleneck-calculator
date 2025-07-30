@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Bottleneck Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Bottleneck Calculator</h1>
+    <form id="bottleneckForm">
+      <div class="form-group">
+        <label for="cpu">CPU Model</label>
+        <div class="input-with-icon">
+          <i class="fas fa-microchip"></i>
+          <input type="text" id="cpu" autocomplete="off" placeholder="Type to search...">
+        </div>
+        <ul id="cpuSuggestions" class="suggestions"></ul>
+      </div>
+      <div class="form-group">
+        <label for="gpu">GPU Model</label>
+        <div class="input-with-icon">
+          <i class="fas fa-video"></i>
+          <input type="text" id="gpu" autocomplete="off" placeholder="Type to search...">
+        </div>
+        <ul id="gpuSuggestions" class="suggestions"></ul>
+      </div>
+      <div class="form-group">
+        <label for="ram">RAM (GB)</label>
+        <div class="input-with-icon">
+          <i class="fas fa-memory"></i>
+          <input type="number" id="ram" placeholder="e.g., 16" min="4" value="16" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="resolution">Resolution</label>
+        <div class="input-with-icon">
+          <i class="fas fa-desktop"></i>
+          <select id="resolution">
+            <option value="1080p">1920x1080 (1080p)</option>
+            <option value="1440p">2560x1440 (1440p)</option>
+            <option value="4k">3840x2160 (4K)</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" id="calculateBtn">Calculate Bottleneck</button>
+      <div id="result"></div>
+    </form>
+    <div class="footer">
+      <p>Built for PC builders — Modern UI, 2025</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
