@@ -1,4 +1,4 @@
-# Bottleneck Calculator Website - Complete Upload Guide
+# Bottleneck Calculator Website - Complete Guide
 
 A modern, responsive bottleneck calculator website that helps users identify CPU and GPU bottlenecks in their PC builds.
 
