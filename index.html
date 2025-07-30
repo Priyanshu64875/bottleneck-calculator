@@ -1,58 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Bottleneck Calculator</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottleneck Calculator - Ultimate PC Performance Analyzer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="app-container">
-    <h1>Bottleneck Calculator</h1>
-    <form id="bottleneckForm">
-      <div class="form-group">
-        <label for="cpu">CPU Model</label>
-        <div class="input-with-icon">
-          <i class="fas fa-microchip"></i>
-          <input type="text" id="cpu" autocomplete="off" placeholder="Type to search...">
+    <div class="cursor-glow"></div>
+    
+    <!-- Animated Background -->
+    <div class="background-container">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="glowing-title">Bottleneck Calculator</h1>
+            <p class="subtitle">Ultimate PC Performance Analyzer</p>
+        </header>
+
+        <!-- Main Calculator Card -->
+        <div class="calculator-card glass-morphism">
+            <div class="card-header">
+                <h2>System Configuration</h2>
+                <p>Select your components to analyze performance bottlenecks</p>
+            </div>
+
+            <div class="input-grid">
+                <!-- CPU Selection -->
+                <div class="input-group">
+                    <label class="form-label">CPU Processor</label>
+                    <div class="search-container">
+                        <input type="text" id="cpu-search" class="form-control search-input" 
+                               placeholder="Search for your CPU..." autocomplete="off">
+                        <div class="search-dropdown hidden" id="cpu-dropdown"></div>
+                    </div>
+                    <div class="selected-component hidden" id="cpu-selected">
+                        <div class="component-info">
+                            <span class="component-name"></span>
+                            <span class="component-tier"></span>
+                        </div>
+                        <button class="remove-btn" onclick="clearSelection('cpu')">&times;</button>
+                    </div>
+                </div>
+
+                <!-- GPU Selection -->
+                <div class="input-group">
+                    <label class="form-label">GPU Graphics Card</label>
+                    <div class="search-container">
+                        <input type="text" id="gpu-search" class="form-control search-input" 
+                               placeholder="Search for your GPU..." autocomplete="off">
+                        <div class="search-dropdown hidden" id="gpu-dropdown"></div>
+                    </div>
+                    <div class="selected-component hidden" id="gpu-selected">
+                        <div class="component-info">
+                            <span class="component-name"></span>
+                            <span class="component-tier"></span>
+                        </div>
+                        <button class="remove-btn" onclick="clearSelection('gpu')">&times;</button>
+                    </div>
+                </div>
+
+                <!-- RAM Selection -->
+                <div class="input-group">
+                    <label class="form-label">RAM Memory</label>
+                    <select id="ram-select" class="form-control">
+                        <option value="">Select RAM amount</option>
+                        <option value="4">4 GB</option>
+                        <option value="8">8 GB</option>
+                        <option value="16">16 GB</option>
+                        <option value="32">32 GB</option>
+                        <option value="64">64 GB</option>
+                        <option value="128">128 GB</option>
+                    </select>
+                </div>
+
+                <!-- Resolution Selection -->
+                <div class="input-group">
+                    <label class="form-label">Resolution</label>
+                    <select id="resolution-select" class="form-control">
+                        <option value="">Select resolution</option>
+                        <option value="1080p">1080p - Full HD (1920x1080)</option>
+                        <option value="1440p">1440p - 2K (2560x1440)</option>
+                        <option value="4K">4K - Ultra HD (3840x2160)</option>
+                        <option value="Ultrawide 1440p">Ultrawide 1440p (3440x1440)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Calculate Button -->
+            <div class="button-container">
+                <button id="calculate-btn" class="btn btn--primary btn-calculate">
+                    <span class="btn-text">Calculate Bottleneck</span>
+                    <div class="btn-loading hidden">
+                        <div class="spinner"></div>
+                        <span>Analyzing...</span>
+                    </div>
+                </button>
+            </div>
         </div>
-        <ul id="cpuSuggestions" class="suggestions"></ul>
-      </div>
-      <div class="form-group">
-        <label for="gpu">GPU Model</label>
-        <div class="input-with-icon">
-          <i class="fas fa-video"></i>
-          <input type="text" id="gpu" autocomplete="off" placeholder="Type to search...">
+
+        <!-- Results Section -->
+        <div class="results-section hidden" id="results-section">
+            <!-- Performance Overview -->
+            <div class="results-card glass-morphism">
+                <h3>Performance Analysis</h3>
+                <div class="performance-overview">
+                    <div class="performance-bars">
+                        <div class="performance-bar">
+                            <label>CPU Performance</label>
+                            <div class="progress-container">
+                                <div class="progress-bar" id="cpu-progress">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-text" id="cpu-score">0%</span>
+                            </div>
+                        </div>
+                        <div class="performance-bar">
+                            <label>GPU Performance</label>
+                            <div class="progress-container">
+                                <div class="progress-bar" id="gpu-progress">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <span class="progress-text" id="gpu-score">0%</span>
+                            </div>
+                        </div>
+                        <div class="performance-bar">
+                            <label>System Balance</label>
+                            <div class="progress-container">
+                                <div class="progress-bar" id="balance-progress">
+                                    <div class="progress-fill balance-fill"></div>
+                                </div>
+                                <span class="progress-text" id="balance-score">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottleneck Analysis -->
+            <div class="results-card glass-morphism">
+                <h3>Bottleneck Analysis</h3>
+                <div class="bottleneck-analysis" id="bottleneck-analysis">
+                    <div class="bottleneck-status">
+                        <div class="status-indicator" id="status-indicator"></div>
+                        <div class="status-text" id="status-text"></div>
+                    </div>
+                    <div class="bottleneck-details" id="bottleneck-details"></div>
+                </div>
+            </div>
+
+            <!-- Upgrade Recommendations -->
+            <div class="results-card glass-morphism">
+                <h3>Upgrade Recommendations</h3>
+                <div class="recommendations" id="recommendations"></div>
+            </div>
         </div>
-        <ul id="gpuSuggestions" class="suggestions"></ul>
+    </div>
+
+    <script src="app.js"></script>
+ <footer class="website-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-left">
+        <p>© 2025 Bottleneck Calculator. All Rights Reserved.
+Made By Priyanshu </p>
       </div>
-      <div class="form-group">
-        <label for="ram">RAM (GB)</label>
-        <div class="input-with-icon">
-          <i class="fas fa-memory"></i>
-          <input type="number" id="ram" placeholder="e.g., 16" min="4" value="16" required>
-        </div>
+      <div class="footer-right">
+        <a href="/privacy.html" class="footer-link">Privacy Policy</a>
+        <a href="/terms.html" class="footer-link">Terms of Use</a>
+        <a href="https://t.me/Priyanshu_225" class="footer-link" target="_blank" rel="noopener">Contact</a>
       </div>
-      <div class="form-group">
-        <label for="resolution">Resolution</label>
-        <div class="input-with-icon">
-          <i class="fas fa-desktop"></i>
-          <select id="resolution">
-            <option value="1080p">1920x1080 (1080p)</option>
-            <option value="1440p">2560x1440 (1440p)</option>
-            <option value="4k">3840x2160 (4K)</option>
-          </select>
-        </div>
-      </div>
-      <button type="submit" id="calculateBtn">Calculate Bottleneck</button>
-      <div id="result"></div>
-    </form>
-    <div class="footer">
-      <p>Built for PC builders — Modern UI, 2025</p>
     </div>
   </div>
-  <script src="script.js"></script>
+</footer>
+
 </body>
 </html>
