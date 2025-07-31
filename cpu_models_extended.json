@@ -1,0 +1,386 @@
+[
+  {
+    "vendor":"Intel",
+    "name":"Core i7-980X",
+    "released":"March 2010",
+    "cpu_mark":9812
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-990X",
+    "released":"February 2011",
+    "cpu_mark":10245
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-2600K",
+    "released":"January 2011",
+    "cpu_mark":8133
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-2500K",
+    "released":"January 2011",
+    "cpu_mark":6935
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-3770K",
+    "released":"April 2012",
+    "cpu_mark":9664
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-3570K",
+    "released":"April 2012",
+    "cpu_mark":7680
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-4770K",
+    "released":"June 2013",
+    "cpu_mark":10634
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-4670K",
+    "released":"June 2013",
+    "cpu_mark":8091
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-5775C",
+    "released":"June 2015",
+    "cpu_mark":11289
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-6700K",
+    "released":"August 2015",
+    "cpu_mark":12180
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-6600K",
+    "released":"August 2015",
+    "cpu_mark":9071
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-7700K",
+    "released":"January 2017",
+    "cpu_mark":13620
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-7600K",
+    "released":"January 2017",
+    "cpu_mark":10038
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-8700K",
+    "released":"October 2017",
+    "cpu_mark":17829
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-8600K",
+    "released":"October 2017",
+    "cpu_mark":14055
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i9-9900K",
+    "released":"October 2018",
+    "cpu_mark":20553
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-9700K",
+    "released":"October 2018",
+    "cpu_mark":18664
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-9600K",
+    "released":"October 2018",
+    "cpu_mark":15005
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i9-10900K",
+    "released":"May 2020",
+    "cpu_mark":23665
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-10700K",
+    "released":"May 2020",
+    "cpu_mark":20571
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-10600K",
+    "released":"May 2020",
+    "cpu_mark":17265
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i9-11900K",
+    "released":"March 2021",
+    "cpu_mark":26251
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-11700K",
+    "released":"March 2021",
+    "cpu_mark":22183
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-11600K",
+    "released":"March 2021",
+    "cpu_mark":19475
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i9-12900K",
+    "released":"November 2021",
+    "cpu_mark":41635
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-12700K",
+    "released":"November 2021",
+    "cpu_mark":34897
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-12600K",
+    "released":"November 2021",
+    "cpu_mark":28713
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i9-13900K",
+    "released":"October 2022",
+    "cpu_mark":58207
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-13700K",
+    "released":"October 2022",
+    "cpu_mark":46470
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-13600K",
+    "released":"October 2022",
+    "cpu_mark":37814
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i9-14900K",
+    "released":"October 2023",
+    "cpu_mark":61481
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i7-14700K",
+    "released":"October 2023",
+    "cpu_mark":48543
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core i5-14600K",
+    "released":"October 2023",
+    "cpu_mark":39127
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core Ultra 9 285K",
+    "released":"October 2024",
+    "cpu_mark":65432
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core Ultra 7 265K",
+    "released":"October 2024",
+    "cpu_mark":52341
+  },
+  {
+    "vendor":"Intel",
+    "name":"Core Ultra 5 245K",
+    "released":"October 2024",
+    "cpu_mark":43210
+  },
+  {
+    "vendor":"AMD",
+    "name":"Phenom II X6 1100T",
+    "released":"December 2010",
+    "cpu_mark":5473
+  },
+  {
+    "vendor":"AMD",
+    "name":"FX-8150",
+    "released":"October 2011",
+    "cpu_mark":8146
+  },
+  {
+    "vendor":"AMD",
+    "name":"FX-8320",
+    "released":"October 2012",
+    "cpu_mark":9021
+  },
+  {
+    "vendor":"AMD",
+    "name":"FX-8350",
+    "released":"October 2012",
+    "cpu_mark":9996
+  },
+  {
+    "vendor":"AMD",
+    "name":"FX-9590",
+    "released":"June 2013",
+    "cpu_mark":12484
+  },
+  {
+    "vendor":"AMD",
+    "name":"A10-7850K",
+    "released":"January 2014",
+    "cpu_mark":6901
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 1700X",
+    "released":"March 2017",
+    "cpu_mark":16144
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 5 1600X",
+    "released":"April 2017",
+    "cpu_mark":13496
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 3 1300X",
+    "released":"July 2017",
+    "cpu_mark":8874
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 2700X",
+    "released":"April 2018",
+    "cpu_mark":17615
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 5 2600X",
+    "released":"April 2018",
+    "cpu_mark":15187
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 9 3900X",
+    "released":"July 2019",
+    "cpu_mark":32730
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 3700X",
+    "released":"July 2019",
+    "cpu_mark":23058
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 5 3600X",
+    "released":"July 2019",
+    "cpu_mark":17899
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 9 5900X",
+    "released":"November 2020",
+    "cpu_mark":39562
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 5800X",
+    "released":"November 2020",
+    "cpu_mark":28332
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 5 5600X",
+    "released":"November 2020",
+    "cpu_mark":22132
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 5800X3D",
+    "released":"April 2022",
+    "cpu_mark":28363
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 9 7900X",
+    "released":"September 2022",
+    "cpu_mark":49144
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 7700X",
+    "released":"September 2022",
+    "cpu_mark":33085
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 5 7600X",
+    "released":"September 2022",
+    "cpu_mark":25514
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 9 7950X3D",
+    "released":"February 2023",
+    "cpu_mark":54433
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 7800X3D",
+    "released":"April 2023",
+    "cpu_mark":35926
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 9 9900X",
+    "released":"August 2024",
+    "cpu_mark":58901
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 9700X",
+    "released":"August 2024",
+    "cpu_mark":38452
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 5 9600X",
+    "released":"August 2024",
+    "cpu_mark":29873
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 9 9950X3D",
+    "released":"March 2025",
+    "cpu_mark":67234
+  },
+  {
+    "vendor":"AMD",
+    "name":"Ryzen 7 9800X3D",
+    "released":"March 2025",
+    "cpu_mark":42156
+  }
+]

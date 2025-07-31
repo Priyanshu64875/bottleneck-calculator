@@ -1,0 +1,452 @@
+[
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 480",
+    "released":"March 2010",
+    "g3d_mark":2438
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 470",
+    "released":"March 2010",
+    "g3d_mark":2156
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 580",
+    "released":"November 2010",
+    "g3d_mark":2876
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 570",
+    "released":"December 2010",
+    "g3d_mark":2543
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 680",
+    "released":"March 2012",
+    "g3d_mark":4336
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 670",
+    "released":"May 2012",
+    "g3d_mark":4052
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 660 Ti",
+    "released":"August 2012",
+    "g3d_mark":3347
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 780",
+    "released":"May 2013",
+    "g3d_mark":5521
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 770",
+    "released":"May 2013",
+    "g3d_mark":4763
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 760",
+    "released":"June 2013",
+    "g3d_mark":3598
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 980",
+    "released":"September 2014",
+    "g3d_mark":8021
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 970",
+    "released":"September 2014",
+    "g3d_mark":6912
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 960",
+    "released":"January 2015",
+    "g3d_mark":4163
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1080",
+    "released":"May 2016",
+    "g3d_mark":12833
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1070",
+    "released":"June 2016",
+    "g3d_mark":10895
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1060 6GB",
+    "released":"July 2016",
+    "g3d_mark":7352
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1050 Ti",
+    "released":"October 2016",
+    "g3d_mark":4612
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1080 Ti",
+    "released":"March 2017",
+    "g3d_mark":15633
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 2080 Ti",
+    "released":"September 2018",
+    "g3d_mark":19326
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 2080",
+    "released":"September 2018",
+    "g3d_mark":16182
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 2070",
+    "released":"October 2018",
+    "g3d_mark":13764
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 2060",
+    "released":"January 2019",
+    "g3d_mark":11175
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1660 Ti",
+    "released":"February 2019",
+    "g3d_mark":8431
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1660",
+    "released":"March 2019",
+    "g3d_mark":7456
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce GTX 1650",
+    "released":"April 2019",
+    "g3d_mark":5131
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 3090",
+    "released":"September 2020",
+    "g3d_mark":26950
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 3080",
+    "released":"September 2020",
+    "g3d_mark":24576
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 3070",
+    "released":"October 2020",
+    "g3d_mark":20715
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 3060 Ti",
+    "released":"December 2020",
+    "g3d_mark":18443
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 3060",
+    "released":"February 2021",
+    "g3d_mark":13943
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 4090",
+    "released":"October 2022",
+    "g3d_mark":35934
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 4080",
+    "released":"November 2022",
+    "g3d_mark":28435
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 4070 Ti",
+    "released":"January 2023",
+    "g3d_mark":22967
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 4070",
+    "released":"April 2023",
+    "g3d_mark":19821
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 4060 Ti",
+    "released":"May 2023",
+    "g3d_mark":16745
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 4060",
+    "released":"June 2023",
+    "g3d_mark":13892
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 5090",
+    "released":"January 2025",
+    "g3d_mark":48532
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 5080",
+    "released":"January 2025",
+    "g3d_mark":38421
+  },
+  {
+    "vendor":"NVIDIA",
+    "name":"GeForce RTX 5070",
+    "released":"February 2025",
+    "g3d_mark":28967
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon HD 6970",
+    "released":"December 2010",
+    "g3d_mark":2743
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon HD 6950",
+    "released":"December 2010",
+    "g3d_mark":2534
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon HD 7970",
+    "released":"December 2011",
+    "g3d_mark":4521
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon HD 7950",
+    "released":"January 2012",
+    "g3d_mark":3987
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon HD 7870",
+    "released":"March 2012",
+    "g3d_mark":3245
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon R9 290X",
+    "released":"October 2013",
+    "g3d_mark":5896
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon R9 290",
+    "released":"November 2013",
+    "g3d_mark":5432
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon R9 280X",
+    "released":"October 2013",
+    "g3d_mark":4758
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon R9 390X",
+    "released":"June 2015",
+    "g3d_mark":6543
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon R9 390",
+    "released":"June 2015",
+    "g3d_mark":5987
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 480",
+    "released":"June 2016",
+    "g3d_mark":7234
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 470",
+    "released":"August 2016",
+    "g3d_mark":6321
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 580",
+    "released":"April 2017",
+    "g3d_mark":7654
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 570",
+    "released":"April 2017",
+    "g3d_mark":6789
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX Vega 64",
+    "released":"August 2017",
+    "g3d_mark":11234
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX Vega 56",
+    "released":"August 2017",
+    "g3d_mark":9876
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 5700 XT",
+    "released":"July 2019",
+    "g3d_mark":12987
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 5700",
+    "released":"July 2019",
+    "g3d_mark":11543
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 5600 XT",
+    "released":"January 2020",
+    "g3d_mark":9876
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 6900 XT",
+    "released":"December 2020",
+    "g3d_mark":23456
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 6800 XT",
+    "released":"November 2020",
+    "g3d_mark":21234
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 6700 XT",
+    "released":"March 2021",
+    "g3d_mark":16789
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 6600 XT",
+    "released":"August 2021",
+    "g3d_mark":13456
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 6600",
+    "released":"October 2021",
+    "g3d_mark":11234
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 7900 XTX",
+    "released":"December 2022",
+    "g3d_mark":31245
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 7900 XT",
+    "released":"December 2022",
+    "g3d_mark":27834
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 7800 XT",
+    "released":"September 2023",
+    "g3d_mark":21567
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 7700 XT",
+    "released":"September 2023",
+    "g3d_mark":18345
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 7600",
+    "released":"May 2023",
+    "g3d_mark":13245
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 9900 XTX",
+    "released":"December 2024",
+    "g3d_mark":42135
+  },
+  {
+    "vendor":"AMD",
+    "name":"Radeon RX 9800 XT",
+    "released":"January 2025",
+    "g3d_mark":35678
+  },
+  {
+    "vendor":"Intel",
+    "name":"Arc A380",
+    "released":"June 2022",
+    "g3d_mark":5432
+  },
+  {
+    "vendor":"Intel",
+    "name":"Arc A580",
+    "released":"October 2023",
+    "g3d_mark":8765
+  },
+  {
+    "vendor":"Intel",
+    "name":"Arc A750",
+    "released":"October 2022",
+    "g3d_mark":11234
+  },
+  {
+    "vendor":"Intel",
+    "name":"Arc A770",
+    "released":"October 2022",
+    "g3d_mark":13456
+  },
+  {
+    "vendor":"Intel",
+    "name":"Arc B770",
+    "released":"March 2025",
+    "g3d_mark":19876
+  }
+]
